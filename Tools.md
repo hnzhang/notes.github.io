@@ -1,2 +1,14 @@
-# h1 grep
+# grep
 
+## To display the number of lines before or after a search string
+
+* use -A n  to display n lines after the match
+* Use -B n to display n lines before the match
+* Use -C n to display n lines before and after the match
+
+## To limit grep output to a fixed number of matches per file
+* -m 2
+
+# To include/exclude file with certain extension
+* include: use --include. For example, --include "*.cpp" --include "*h"
+* exclude: use --exclude, For example, --exclude "*.h"
