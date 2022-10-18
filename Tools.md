@@ -1,5 +1,5 @@
 # grep
-## Common flags
+## useful flags
 * -r recursively. useful when given path is a directory
 * -l to only list file names
 * -i case insensitive
@@ -19,6 +19,17 @@
 * include: use --include. For example, --include "*.cpp" --include "*h"
 * exclude: use --exclude, For example, --exclude "*.h"
 
+# find
+To find files match a pattern
+
+classic find in a folder, `find . -name myfile`
+
+## useful flags
+* -name to find with case sensitive
+* -iname to find with case insensitive
+* -exec to have action on found files
+
+
 # ssh
 ssh_known_hosts in /etc/ssh/ssh_known_hosts
 
@@ -26,3 +37,4 @@ ssh_known_hosts in /etc/ssh/ssh_known_hosts
 * to display the ssh agent info
 * to get pid of ssh agent, please use `eval "$(ssh-agent)"`
 * 
+
