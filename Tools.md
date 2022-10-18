@@ -1,4 +1,10 @@
 # grep
+## Common flags
+* -r recursively. useful when given path is a directory
+* -l to only list file names
+* -i case insensitive
+* -v for reverse grep search to exclude lines that contains the pattern
+
 
 ## To display the number of lines before or after a search string
 
