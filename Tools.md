@@ -18,3 +18,11 @@
 # To include/exclude file with certain extension
 * include: use --include. For example, --include "*.cpp" --include "*h"
 * exclude: use --exclude, For example, --exclude "*.h"
+
+# ssh
+ssh_known_hosts in /etc/ssh/ssh_known_hosts
+
+## ssh-agent
+* to display the ssh agent info
+* to get pid of ssh agent, please use `eval "$(ssh-agent)"`
+* 
