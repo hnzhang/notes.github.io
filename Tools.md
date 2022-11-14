@@ -32,7 +32,16 @@ classic find in a folder, `find . -name myfile`
 
 # ssh
 ssh_known_hosts in /etc/ssh/ssh_known_hosts
-
+# Emacs-based key-bindings for Bash
+## move and deletes
+* M - f move forward a word
+* M - b move backwrd a word
+* C - a move to the beginning
+* C - e move to the end
+* C - u delete to the beginning
+* C - k delete to the end
+* C - y recover the line
+* C - w delete a word 
 ## ssh-agent
 * to display the ssh agent info
 * to get pid of ssh agent, please use `eval "$(ssh-agent)"`
